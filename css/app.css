@@ -32,7 +32,7 @@ a:hover {
 
 .banner {
   background-image: url("../images/pan.jpg");
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: 140%;
   background-position: 50% 40%; }
   .banner * {
@@ -131,5 +131,13 @@ footer {
     font-size: 16px;
     padding: 10px;
     margin-right: 5px; }
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 100%;
+    text-align: center; }
+
+  .banner .overlay .textbanner {
+    margin: 8% 0% 0% 0%; } }
 
 /*# sourceMappingURL=app.css.map */
